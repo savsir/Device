@@ -1,0 +1,2 @@
+add_lunch_combo havoc_sagit-user
+add_lunch_combo havoc_sagit-userdebug
