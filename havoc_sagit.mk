@@ -13,6 +13,9 @@ $(call inherit-product, vendor/havoc/config/common.mk)
 
 # Official HavocOS
 HAVOC_BUILD_TYPE := Official
+# Maintainer Prop
+PRODUCT_PROPERTIES_OVERRIDES += \
+    ro.havoc.maintainer="Savsir"
 
 PRODUCT_NAME := havoc_sagit
 PRODUCT_DEVICE := sagit
