@@ -117,5 +117,7 @@
          config to 7. -->
     <integer name="config_deviceHardwareKeys">83</integer>
     <bool name="config_button_brightness_support">true</bool>
-<integer name="config_button_brightness_default">128</integer>
+    <integer name="config_button_brightness_default">128</integer>
+<!-- Whether the device has outdated qti-telephony-common.jar -->
+    <bool name="config_oldQtiTelephony">false</bool>
 </resources>
